@@ -8,6 +8,7 @@
 3. [Installation](#installation)
 4. [How to Use](#how-to-use)
 5. [Notes](#notes)
+6. [License](#license)
 
 
 ## Overview
