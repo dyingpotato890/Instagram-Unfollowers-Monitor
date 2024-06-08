@@ -1,7 +1,6 @@
-
 # Instagram Unfollowers Monitor
 
-# Table of Contents
+## Table of Contents
 
 1. [Overview](#overview)
 2. [Features](#features)
@@ -9,7 +8,6 @@
 4. [How to Use](#how-to-use)
 5. [Notes](#notes)
 6. [License](#license)
-
 
 ## Overview
 
@@ -26,16 +24,17 @@ Tired of people unfollowing you after you follow them back? Have apps for removi
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/dyingpotato890/Task-Automation.git
+    git clone https://github.com/dyingpotato890/Instagram-Unfollowers-Monitor.git
     ```
 2. Navigate to the `Instagram Unfollowers Monitor` folder:
     ```sh
-    cd "Task-Automation/Instagram Unfollowers Monitor"
+    cd "Instagram-Unfollowers-Monitor"
     ```
 3. Install the required libraries:
     ```sh
     pip install -r requirements.txt
     ```
+
 ## How to Use
 
 1. **Download Your Instagram Data**:
@@ -55,7 +54,6 @@ The code should now return an Excel file called `unfollow.xlsx` which contains t
 
 - Be mindful of Instagram's API rate limits and terms of service.
 - Use responsibly to avoid getting your account blocked or flagged.
-
 
 ## License
 
