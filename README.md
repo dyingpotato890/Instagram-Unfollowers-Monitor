@@ -1,6 +1,15 @@
 
 # Instagram Unfollowers Monitor
 
+# Table of Contents
+
+1. [Overview](#overview)
+2. [Features](#features)
+3. [Installation](#installation)
+4. [How to Use](#how-to-use)
+5. [Notes](#notes)
+
+
 ## Overview
 
 Tired of people unfollowing you after you follow them back? Have apps for removing followers caused your account to be flagged by Instagram? This Python script is designed just to work around that issue without risking your account's security and compliance with Instagram's guidelines.
@@ -45,3 +54,8 @@ The code should now return an Excel file called `unfollow.xlsx` which contains t
 
 - Be mindful of Instagram's API rate limits and terms of service.
 - Use responsibly to avoid getting your account blocked or flagged.
+
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
