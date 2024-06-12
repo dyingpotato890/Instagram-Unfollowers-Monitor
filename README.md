@@ -4,9 +4,9 @@
 
 1. [Overview](#overview)
 2. [Features](#features)
-3. [Installation](#installation)
-4. [How to Use](#how-to-use)
-5. [Notes](#notes)
+3. [How to Use](#how-to-use)
+4. [Notes](#notes)
+5. [Contributing](#contributing)
 6. [License](#license)
 
 ## Overview
@@ -20,40 +20,51 @@ Tired of people unfollowing you after you follow them back? Have apps for removi
 - Minimizes the risk of violating Instagram's policies.
 - Maintains account security without compromise by not requiring your password.
 
-## Installation
+## How to Use
 
-1. Clone the repository:
+1. Make sure you have Python installed on your system.
+
+2. Clone the repository:
     ```sh
     git clone https://github.com/dyingpotato890/Instagram-Unfollowers-Monitor.git
     ```
-2. Navigate to the `Instagram Unfollowers Monitor` folder:
+3. Navigate to the `Instagram Unfollowers Monitor` folder:
     ```sh
     cd "Instagram-Unfollowers-Monitor"
     ```
-3. Install the required libraries:
+4. Install the required libraries:
     ```sh
     pip install -r requirements.txt
     ```
-
-## How to Use
-
-1. **Download Your Instagram Data**:
+    
+5. Download Your Instagram Data:
     - Go to your Instagram profile.
     - Navigate to `Accounts Center`.
     - Select `Your information and permissions`.
     - Choose `Download your information`.
     - Create a new download request for your data.
     - It is advised to choose the option `Some of your information` under the `How much information do you want` tab.
-    - **Note**: For the program to work, the files must be downloaded in JSON format.
+    - **NOTE**: For the program to work, the files must be downloaded in JSON format. **Make sure you extract the zip file before proceeding.**
 
-2. **Run the Script**
+6. Run The Script.
+   ```sh
+    python unfollowers.py
+    ```
 
-The code should now return an Excel file called `unfollow.xlsx` which contains the account name and link to their profile for all accounts that do not follow you back.
+7. Copy The File Path for ```followers_1.json``` and ```following.json``` and paste it into the respective fields. No need to make changes to the file path manually, the code does it for you.
+
+6. Search for ```unfollow.xlsx``` to recieve your unfollower data. (Username & Link To Their Profile)
 
 ## Notes
 
 - Be mindful of Instagram's API rate limits and terms of service.
 - Use responsibly to avoid getting your account blocked or flagged.
+
+## Contributing
+
+You're welcome to contribute! Here's how you can contribute:
+- If you've encountered a bug, [Open An Issue](https://github.com/dyingpotato890/Instagram-Unfollowers-Monitor/issues)
+- If you want to make changes or add new features, create a [Pull Request](https://github.com/dyingpotato890/Instagram-Unfollowers-Monitor/pulls).
 
 ## License
 
