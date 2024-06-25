@@ -42,6 +42,7 @@ Tired of people unfollowing you after you follow them back? Have apps for removi
     - Navigate to `Accounts Center`.
     - Select `Your information and permissions`.
     - Choose `Download your information`.
+    - Scroll down until you find ```Connections``` and choose ```Followers and Following``` **ONLY**.
     - Create a new download request for your data.
     - It is advised to choose the option `Some of your information` under the `How much information do you want` tab.
     - **NOTE**: For the program to work, the files must be downloaded in JSON format. **Make sure you extract the zip file before proceeding.**
